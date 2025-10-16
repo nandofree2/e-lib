@@ -30,6 +30,7 @@
                     </p>
                     <button class="btn btn-link p-0" onclick="toggleSynopsis({{ $book->id }})">Read more</button>
                     <p class="mt-2 mb-0"><strong>Stock:</strong> {{ $book->stock }}</p>
+                    <a href="{{ route('books.show', $book) }}" class="btn btn-info btn-sm">View</a>
                 </div>
             </div>
         </div>

@@ -11,5 +11,5 @@
 <p><strong>Status:</strong> {{ ucfirst($book->status_book) }}</p>
 <p><strong>Synopsis:</strong><br>{{ $book->synopsis }}</p>
 
-<a href="{{ route('books.index') }}" class="btn btn-secondary">Back</a>
+<a href="{{ route('home') }}" class="btn btn-secondary">Back</a>
 @endsection
